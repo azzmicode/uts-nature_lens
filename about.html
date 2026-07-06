@@ -23,63 +23,148 @@
 			</div>
 		</nav>
 
-<div class="container">
+	<div class="container">
 
-<h1>Mengapa Saya Menyukai Fotografi?</h1>
-	<p>
-		Fotografi membuat saya belajar melihat detail kecil
-		yang sering dilewatkan. Setiap perjalanan bisa
-		menjadi kesempatan untuk mendapatkan pengalaman dan
-		hasil foto yang berbeda.
-	</p><br>
+	<h1>Mengapa Saya Menyukai Fotografi?</h1>
+		<p>
+			Fotografi membuat saya belajar melihat detail kecil
+			yang sering dilewatkan. Setiap perjalanan bisa
+			menjadi kesempatan untuk mendapatkan pengalaman dan
+			hasil foto yang berbeda.
+		</p><br>
 
-<h2>Lokasi Favorit Berburu Foto :</h2>
+	<h2>Lokasi Favorit Berburu Foto :</h2>
 
-	<table>
-		<tr>
-			<th>Lokasi</th>
-			<th>Jenis Foto</th>
-			<th>Waktu Favorit</th>
-		</tr>
+		<table>
+			<tr>
+				<th>Lokasi</th>
+				<th>Jenis Foto</th>
+				<th>Waktu Favorit</th>
+			</tr>
 
-		<tr>
-			<td>Gunung</td>
-			<td>Landscape</td>
-			<td>Sunrise</td>
-		</tr>
+			<tr>
+				<td>Gunung</td>
+				<td>Landscape</td>
+				<td>Sunrise</td>
+			</tr>
 
-		<tr>
-			<td>Sawah</td>
-			<td>Nature</td>
-			<td>Pagi</td>
-		</tr>
+			<tr>
+				<td>Sawah</td>
+				<td>Nature</td>
+				<td>Pagi</td>
+			</tr>
 
-		<tr>
-			<td>Sungai</td>
-			<td>Long Exposure</td>
-			<td>Senja</td>
-		</tr>
+			<tr>
+				<td>Sungai</td>
+				<td>Long Exposure</td>
+				<td>Senja</td>
+			</tr>
 
-		<tr>
-			<td>Pantai</td>
-			<td>Sunset</td>
-			<td>Sore</td>
-		</tr>
+			<tr>
+				<td>Pantai</td>
+				<td>Sunset</td>
+				<td>Sore</td>
+			</tr>
 
-	</table>
+		</table>
 
-	<p>
-		Terinspirasi dari
-			<a href="https://www.nationalgeographic.com/photography/" target="_blank">
-				National Geographic
-			</a>
-		dan berbagai fotografer alam lainnya.
-	</p>
+		<p>
+			Terinspirasi dari
+				<a href="https://www.nationalgeographic.com/photography/" target="_blank">
+					National Geographic
+				</a>
+			dan berbagai fotografer alam lainnya.
+		</p><br>
+		<hr>
 
-</div>
+	<section class="share">
+
+		<h2>📸 Bagikan Pengalaman Fotografimu juga</h2>
+
+		<p>
+			Ceritakan pengalaman terbaikmu saat berburu foto.
+			Cerita yang dikirim akan disimpan pada browser menggunakan
+			<b>Local Storage</b>.
+		</p>
+
+		<form id="photoForm">
+
+			<label for="nama">Nama</label>
+			<input
+				type="text"
+				id="nama"
+				placeholder="Masukkan nama lengkap"
+				required
+				minlength="3">
+
+			<label for="email">Email</label>
+			<input
+				type="email"
+				id="email"
+				placeholder="contoh@email.com"
+				required>
+
+			<label for="jenis">Jenis Fotografi Favorit</label>
+			<select id="jenis" required>
+				<option value=""><i>None</i></option>
+				<option>Landscape</option>
+				<option>Nature</option>
+				<option>Street</option>
+				<option>Portrait</option>
+				<option>Wildlife</option>
+				<option>Macro</option>
+			</select>
+
+			<label for="tanggal">Tanggal Foto Diambil</label>
+			<input
+				type="date"
+				id="tanggal"
+				required>
+
+			<label for="foto">Bagikan Foto</label>
+			<input
+				type="file"
+				id="foto"
+				accept="image/*">
+
+			<label for="komentar">Cerita Pengalaman</label>
+			<textarea
+				id="komentar"
+				rows="6"
+				placeholder="Ceritakan pengalaman fotografimu..."
+				required></textarea>
+
+			<label class="check">
+				<input
+					type="checkbox"
+					id="izin"
+					required>
+
+				Saya mengizinkan cerita ini disimpan.
+			</label>
+
+			<button class="btn" type="submit">
+				Kirim Cerita
+			</button>
+		</form>
+	</section>
+
+	<section id="journal" class="journal">
+
+		<h2>📖 Jurnal Fotografi</h2>
+
+		<p class="empty">
+			Belum ada cerita fotografi yang dibagikan, silahkan isi formulir diatas terlebih dulu.
+		</p>
+
+	</section>
+
+	</div>
 
 	<footer>
 		Khafidz Ulil Azmi 2026
 	</footer>
+	<script src="script.js"></script>
+	
 	</body>
 </html>

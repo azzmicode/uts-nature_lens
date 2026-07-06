@@ -253,3 +253,207 @@ background:#1f2937;
 color:white;
 
 }
+
+.share{
+
+margin-top:60px;
+
+}
+
+.share h2{
+
+margin-bottom:10px;
+
+}
+
+.share p{
+
+margin-bottom:25px;
+
+}
+
+form{
+
+background:white;
+
+padding:30px;
+
+border-radius:15px;
+
+box-shadow:0 5px 15px rgba(0,0,0,.08);
+
+display:flex;
+
+flex-direction:column;
+
+gap:15px;
+
+}
+
+form label{
+
+font-weight:bold;
+
+}
+
+form input,
+form select,
+form textarea{
+
+padding:12px;
+
+border:1px solid #d1d5db;
+
+border-radius:8px;
+
+font-size:15px;
+
+font-family:inherit;
+
+}
+
+form textarea{
+
+resize:vertical;
+
+min-height:120px;
+
+}
+
+form small{
+
+color:#6b7280;
+
+font-size:13px;
+
+margin-top:-8px;
+
+}
+
+.check{
+
+display:flex;
+
+align-items:center;
+
+gap:10px;
+
+font-weight:normal;
+
+}
+
+.check input{
+
+width:auto;
+
+}
+
+form button{
+
+align-self:flex-start;
+
+}
+
+
+.journal{
+
+margin-top:50px;
+
+background:white;
+
+padding:30px;
+
+border-radius:15px;
+
+box-shadow:0 5px 15px rgba(0,0,0,.08);
+
+}
+
+.journal h2{
+
+margin-bottom:20px;
+
+}
+
+.empty{
+
+text-align:center;
+
+color:#6b7280;
+
+padding:25px;
+
+font-style:italic;
+
+}
+
+
+.btn {
+    transition: background-color 0.3s ease, transform 0.2s ease;
+    border: none;
+    cursor: pointer;
+}
+
+.btn:hover {
+    background-color: #65a30d;
+    transform: translateY(-2px);
+}
+
+.btn-danger {
+    display: inline-block;
+    padding: 12px 25px;
+    background: #ef4444;
+    color: white;
+    text-decoration: none;
+    border-radius: 8px;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+.btn-danger:hover {
+    background: #dc2626;
+    transform: translateY(-2px);
+}
+
+
+
+.journal-card {
+    background: #f8fafc;
+    border: 1px solid #e2e8f0;
+    border-radius: 12px;
+    padding: 25px;
+    margin-top: 20px;
+    box-shadow: inset 0 2px 4px rgba(0,0,0,0.02);
+}
+
+.journal-card p {
+    margin-bottom: 12px;
+    padding-bottom: 8px;
+    border-bottom: 1px dashed #cbd5e1;
+}
+
+.journal-card p:last-of-type {
+    border-bottom: none;
+}
+
+.journal-story {
+    background: white;
+    padding: 15px;
+    border-radius: 8px;
+    border: 1px solid #e2e8f0;
+    margin-top: 15px;
+    font-style: italic;
+    color: #475569;
+    line-height: 1.8;
+}
+
+.journal-preview {
+    max-width: 100%;
+    max-height: 400px;
+    object-fit: cover;
+    border-radius: 8px;
+    margin-top: 15px;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+}
