@@ -42,9 +42,10 @@ function tampilkanJournal(data) {
         form.reset();
         form.style.display = "flex";
         journal.innerHTML = `
-            <h2>📖 Photography Journal</h2>
+            <h2>📖 Jurnal Fotografi</h2>
             <p class="empty">
-                Belum ada cerita fotografi yang dibagikan.
+                Belum ada cerita fotografi yang dibagikan,
+                silahkan isi formulir diatas terlebih dulu.
             </p>
         `;
     });
